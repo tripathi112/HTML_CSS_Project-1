@@ -23,7 +23,7 @@ A statc web page of Fashion Trends using HTML CSS.
 To deploy this project run
 
 ```bash
-  html-css-project-1-theta.vercel.app
+ https://html-css-project-1-theta.vercel.app/
 ```
 
 ## Time taken to finish this project
