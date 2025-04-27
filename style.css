@@ -1,0 +1,210 @@
+/* Reset some default browser styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Orbitron', sans-serif;
+}
+.container{
+    width: 100%;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+ul li:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.logo img{
+    height: 35px;
+    width: 90px;
+}
+.button-group{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.nav-button{
+    border: 3px solid black;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+.hero-container{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 40px;
+   position: relative;
+}
+.square{
+    position: absolute;
+    top: 200px;
+     left: 8%;
+}
+.star{
+    position: absolute;
+    top: 22%;
+    right: 10%;
+}
+.globe{
+    position: absolute;
+    top: 15%;
+    left: 55%;
+}
+.person-container img{
+  top: 20%;
+  left: 0%;
+  position: absolute;
+  background-size: cover;
+  
+}
+.hero-container-right{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    text-align: center;
+}
+.hero-heading{
+    
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+      font-size: 50px;
+    margin-top: 20%;
+}
+.hero-description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #555;
+    text-align: center;
+   margin-top: 5%;
+}
+.button-email{
+    color: #555;
+    font-weight: 700;
+    border: 3px solid black;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background: none;
+    font-size: 16px;
+    font-family:'Orbitron', sans-serif;
+    cursor: pointer;
+    margin-right: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    width: 30%;
+    margin-top: 10%;
+   
+}
+.button-join{
+    border: 3px solid black;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family:'Orbitron', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    width: 20%;
+}
+.contact-heading{
+margin-bottom: 3%;
+margin-top: 8%;
+font-size: 20px;
+color: #555;
+font-weight: 700;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Responsive for mobile devices */
+@media (max-width: 768px) {
+    .navbar-container {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .list-c ul {
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .hero-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .person-container img {
+      width: 250px;
+    }
+  
+    .hero-heading {
+      font-size: 30px;
+      text-align: center;
+    }
+  
+    .hero-description {
+      font-size: 13px;
+      text-align: center;
+    }
+  
+    .hero-container-right {
+      text-align: center;
+    }
+  
+    .button-group {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .square img, .globe img, .star img {
+      width: 100px;
+    }
+  
+    .square {
+      left: 10px;
+      bottom: -5%;
+    }
+  
+    .globe {
+      top: 5%;
+    }
+  
+    .star {
+      top: 10%;
+      right: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-heading {
+      font-size: 24px;
+    }
+  }
+  
