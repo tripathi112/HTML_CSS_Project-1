@@ -23,7 +23,7 @@ A statc web page of Fashion Trends using HTML CSS.
 To deploy this project run
 
 ```bash
-  https://assignment-1-blue-nine.vercel.app/
+[https://html-css-project-1-theta.vercel.app/]
 
 ```
 
